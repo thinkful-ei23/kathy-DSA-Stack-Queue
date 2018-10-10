@@ -17,7 +17,7 @@ function display(stack) { //works prints out last to first
 };
 
 function is_palindrome(str) { //works
-	str = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
+	str = (str).replace(/[^a-zA-Z0-9]/g, "");
 	console.log(str, 'original string');
 	let palForward = new Stack();
 
@@ -50,7 +50,7 @@ function sort(stack) {
 	let tempTop = stack.pop();
 	console.log(stackMix, 'where no woman has gone')
 
-	while( tempNode > tempTop) {
+	while (tempNode > tempTop) {
 
 
 	}
